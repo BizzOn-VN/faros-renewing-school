@@ -754,12 +754,14 @@ p.error{
   display: none;
       width: 50%;
       height: 50%;
-      background: #387e22;
+      background: #0056ef;
       position: relative;
       color: #FFF;
 }
 .md-modal-fancybox a{
   text-decoration: underline;
+  color: #FFF;
+  font-weight: 700;
 }
 .md-modal-fancybox p{
   position: absolute;
