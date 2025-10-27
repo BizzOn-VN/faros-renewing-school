@@ -214,9 +214,14 @@ img{
   font-family: 'UTMAvoBold';
   margin-bottom: 10px;
 }
+.section-2 .md-col p img{
+  width: 1.5%;
+  margin: -3px 5px 0px 0px;
+}
 .section-2 .md-col span{
   padding-left: 5%;
   display: block;
+  text-align: justify;
 }
 .section-2 .md-col .text-note{
   margin-top: 10px;
@@ -261,7 +266,8 @@ img{
 }
 .section-3 .md-content .md-col .md-text p{
   margin-bottom: 5px;
-  font-size: calc(4px + 0.8vw);
+  font-size: calc(3px + 0.8vw);
+  text-align: justify;
 }
 .section-3 .md-content .owl-prev{
   position: absolute;
@@ -758,6 +764,9 @@ p.error{
       position: relative;
       color: #FFF;
 }
+.md-modal-fancybox span{
+  display: block;
+}
 .md-modal-fancybox a{
   text-decoration: underline;
   color: #FFF;
@@ -803,6 +812,12 @@ p.error{
 @media screen and (max-width: 767px){
   .section-3 .md-content .md-col .md-text p{
     font-size: calc(6px + 1vw);
+  }
+  .section-2 .md-col p img{
+    width: 3%;
+  }
+  .md-modal-fancybox span{
+    display: inline;
   }
   .section-3 .md-bottom .row{
     padding: 0px 5%;
