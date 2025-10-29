@@ -266,7 +266,7 @@ img{
 }
 .section-3 .md-content .md-col .md-text p{
   margin-bottom: 5px;
-  font-size: calc(3px + 0.8vw);
+  font-size: calc(3.5px + 0.8vw);
   text-align: justify;
 }
 .section-3 .md-content .owl-prev{
@@ -312,6 +312,9 @@ img{
 .section-3 .md-bottom .row p{
   text-align: center;
   padding: 0px 5%;
+}
+.section-3 .md-bottom .row p span{
+  display: inline-block;
 }
 .section-3 .md-bottom .row .col-6{
   margin-bottom: 30px;
@@ -823,6 +826,9 @@ p.error{
   }
   .section-3 .md-bottom .row{
     padding: 0px 5%;
+  }
+  .section-3 .md-bottom .row p span{
+    display: inline;
   }
   .section-6 .row{
     padding: 0px 5%;
