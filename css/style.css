@@ -729,7 +729,7 @@ img{
   color: #e03330;
 }
 p.error{
-      color: #f9dc57;
+      color: #e03330;
     font-style: italic;
     font-size: calc(2px + 0.8vw) !important;
     margin-bottom: 0px;
