@@ -936,6 +936,7 @@ p.error{
     background: #FFF;
     padding: 20px 30px;
     transition-duration: 0.5s;
+    z-index: 999;
 
   }
   .nav-links.active{
@@ -952,7 +953,7 @@ p.error{
     display: block;
   }
   .toggle-menu{
-    margin-top: 18px;
+    margin-top: 10px;
     display: block;
     width: 30px;
     background: #0041d1;
@@ -1052,9 +1053,18 @@ p.error{
     transition: background-color 0.3s ease;
     font-weight: 600;
 }
+.section-2 .md-title h6 span{
+  display: inline-block;
+}
 @media screen and (max-width: 767px){
   .section-5 .btn-hoantat .fancybox-close-small{
     width: 50% !important;
+  }
+  .section-2 .md-col span{
+    padding-left: 0px;
+  }
+  .section-2 .md-title h6 span{
+    display: inline;
   }
 }
 

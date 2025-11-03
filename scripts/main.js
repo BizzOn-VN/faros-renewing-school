@@ -35,7 +35,7 @@ $('.nav-links a').click(function(){
 $(window).scroll(function(){
     if ($(window).scrollTop() >= 90) {
         $('.menu-header').addClass('scroll-top');
-        $('.md-section').css('padding-top','90px');
+        $('.md-section').css('padding-top','50px');
     }
     else {
         $('.menu-header').removeClass('scroll-top');
