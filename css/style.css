@@ -567,6 +567,18 @@ img{
 .section-5 .right-panel h3 {
     color: #fff;
 }
+.section-5 .qr-code{
+  position: relative;
+}
+.section-5 .qr-code a{
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #FFF;
+  font-weight: 600;
+  text-decoration: underline;
+}
 .section-5 .qr-code img{
   width: 40%;
   display: table;
